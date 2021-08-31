@@ -6,7 +6,8 @@ from tkinter import messagebox
 
 
 
-for virus in range(10):
+for virus in range(100):
+    
     os.system("start")
     engine=pyttsx3.init("sapi5")
     engine.say("your pc is infected")
